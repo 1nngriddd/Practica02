@@ -1,0 +1,24 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: rgb(226, 226, 226);
+    border-bottom: 2px solid #63cbe8ec;
+}
+
+.Logo {
+
+    font-size: 35px;
+    width: 50px;
+}
+
+.Header h1 {
+    margin: 0;
+    color: #4e8caf;
+}
+
+.Header::after {
+    content: '';
+    width: 50px;
+}
